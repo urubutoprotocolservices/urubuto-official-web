@@ -186,7 +186,7 @@ Elevating Every Event With Professional Protocol & Service
 Professional hosting and protocol services across Kigali City and the Southern Province of Rwanda.
 </p>
 
-<a class="btn" href="#booking">
+<a class="btn" href="#booking"style="margin-bottom:15px; display:inline-block;">
 Book Our Services
 </a>
 
@@ -342,15 +342,15 @@ Book Our Services
 </h2>
 
 
-<form>
+<form action="https://formsubmit.co/urubutoprotocolservices@gmail.com" method="POST">
 
-<input type="text" placeholder="Full Name">
+<input type="text" name="name" placeholder="Full Name" required>
 
-<input type="tel" placeholder="Phone Number">
+<input type="tel" name="phone" placeholder="Phone Number" required>
 
 
-<select>
-<option>Type of Event</option>
+<select name="event_type"required>
+<option value=""disabled selected>Type of Event</option>
 <option>Wedding</option>
 <option>Conference</option>
 <option>Graduation</option>
@@ -359,7 +359,7 @@ Book Our Services
 </select>
 
 
-<input type="text"placeholder="Event Date(DD/MM/YYYY)"pattern="\d{2}/\d{2}/\d{2}">
+<input type="text"placeholder="Event Date(DD/MM/YYYY)"pattern="\d{2}/\d{2}/\d{4}">
 
 
 <select>
@@ -409,14 +409,21 @@ Your feedback helps us improve our services.
 </p>
 
 
-<form>
+<form action="https://formsubmit.co/urubutoprotocolservices@gmail.com" method="POST">
+
 
 <input type="text" placeholder="Name (Optional)">
 
-<input type="tel" placeholder="Phone Number">
+<input type="tel" name="phone" placeholder="Phone Number" required>
 
-<input type="text" placeholder="Event Type">
-
+<select name="event_type"required>
+<option value=""disabled selected>Type of Event</option>
+<option>Wedding</option>
+<option>Conference</option>
+<option>Graduation</option>
+<option>Thanksgiving</option>
+<option>Tourism Event</option>
+</select>
 
 <textarea placeholder="Describe your complaint or suggestion"></textarea>
 
@@ -453,7 +460,7 @@ We recommend booking as early as possible to guarantee availability.
 <div class="card">
 <h3>Do you operate outside Kigali?</h3>
 <p>
-Yes, we cover Kigali City and Southern Province districts.
+Yes, we cover Kigali City, Southern Province districts and Bugesera district.
 </p>
 </div>
 
